@@ -2,7 +2,7 @@
 const { merge } = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+// const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 // const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 const CssMinimizerWebpackPlugin = require('css-minimizer-webpack-plugin');
@@ -33,6 +33,6 @@ module.exports = merge(common, {
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
   ],
 });
