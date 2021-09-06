@@ -1,4 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/vvqghntff1x7l1lx?svg=true)](https://ci.appveyor.com/project/shayu78/ahj-http-frontend)
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать npm (а значит, никакого `yarn.lock` в репозитории быть не должно)
