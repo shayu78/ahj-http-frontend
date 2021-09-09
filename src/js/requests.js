@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { preloaderModalElement } from './general';
 
-// const SERVER_URL = 'https://ahj7-http-backend.herokuapp.com';
-// const SERVER_URL = 'http://localhost:7070';
 const { SERVER_URL } = process.env;
 // console.log(SERVER_URL);
 
